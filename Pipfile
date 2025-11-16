@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-bootstrap5 = "*"
+django-cms = "*"
+django-filer = "*"
+django-fsm = "*"
+djangocms-alias = "*"
+djangocms-frontend = "*"
+djangocms-text = "*"
+djangocms-versioning = "*"
+djangocms-simple-admin-style = "*"
+djangocms-rest = "*"
+djangorestframework = "*"
+drf-spectacular = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.20"
